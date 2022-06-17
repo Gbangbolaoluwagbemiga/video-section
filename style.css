@@ -12,21 +12,72 @@ img {
 }
 p {
   font-size: 25px;
+}
+.letters {
   text-align: center;
 }
-i {
+.likes {
+  font-size: 40px;
+}
+.hidden {
+  display: none;
+}
+
+.play {
   position: relative;
-  bottom: 50%;
-  left: 30%;
+  bottom: 65%;
+  left: 35%;
   font-size: 15vh;
   text-align: center;
   color: white;
 }
+.playing {
+  bottom: 72%;
+}
+
 .dark {
   color: black;
 }
+
 a,
 a:hover {
   text-decoration: none;
   color: white;
+}
+.logo {
+  width: 15%;
+  margin: 3%;
+  margin-bottom: 5%;
+}
+@media screen and (max-width: 500px) {
+  img {
+    width: 100%;
+    text-align: center;
+  }
+  .pics,
+  .pics1 {
+    width: 95%;
+  }
+  .pics2 {
+    height: 80%;
+  }
+  .play1 {
+    bottom: 75%;
+  }
+  .gap {
+    margin-bottom: 50px;
+  }
+  .logo {
+    width: 40%;
+    margin-bottom: 10%;
+  }
+}
+.like1 {
+  margin-bottom: 40%;
+}
+.like {
+  position: absolute;
+  font-size: 50px;
+  left: 3px;
+  margin-bottom: 10%;
 }
